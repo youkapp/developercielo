@@ -9,6 +9,6 @@
   "license": "MIT",
   "type": "library",
   "require": {
-    "php": ">=7.6",
+    "php": ">=5.6",
   }
 }
