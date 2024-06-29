@@ -9,13 +9,8 @@
   "license": "MIT",
   "type": "library",
   "require": {
-    "php": ">=7",
-    "ext-curl": "*",
-    "ext-json": "*",
-    "psr/log":"^1.1"
-  },
-  "suggest": {
-    "monolog/monolog": "Allows more advanced logging of the application flow"
+    "php": ">=7.3",
+    "psr/log": "^1.1 || ^2.0 || ^3.0"
   },
   "homepage": "https://github.com/youkapp/youkcielo/api-3.0"
 }
