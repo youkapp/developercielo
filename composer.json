@@ -4,12 +4,18 @@
       "Cielo": "src"
     }
   },
-  "name": "youkcielo/api-3.0",
+  "name": "developercielo/api-3.0-php",
   "description": "Integração com a API 3.0 da Cielo",
   "license": "MIT",
   "type": "library",
   "require": {
-    "php": ">=7.3"
+    "php": ">=5.6",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "psr/log":"^1.1"
   },
-  "homepage": "https://github.com/youkapp/youkcielo/api-3.0"
+  "suggest": {
+    "monolog/monolog": "Allows more advanced logging of the application flow"
+  },
+  "homepage": "https://github.com/DeveloperCielo/API-3.0-PHP"
 }
